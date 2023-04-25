@@ -1,0 +1,39 @@
+.main {
+  width: 100%;
+  min-height: 70vh;
+  background-color: aliceblue;
+}
+.about_me {
+  padding: 20px;
+  width: 70%;
+  margin: 100px auto;
+  text-align: center;
+}
+h2 {
+  color: darkgrey;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 50px;
+  text-align: center;
+}
+h4 {
+  margin-bottom: 3.4rem;
+  color: darkgray;
+  font-family: Arial, Helvetica, sans-serif;
+}
+p {
+  line-height: 2rem;
+  letter-spacing: 0.1rem;
+}
+footer {
+  margin-top: 20px;
+  padding-bottom: 20px;
+}
+footer a {
+  text-decoration: none;
+  color: darkgray;
+  margin-bottom: 30px;
+}
+footer p {
+  margin-top: 20px;
+}

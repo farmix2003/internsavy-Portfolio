@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,700&display=swap");
+
+html {
+  font-family: "Roboto", sans-serif;
+  /* font-size: 12px; */
+}
+
+.blog {
+  margin-top: 100px;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  background: azure;
+  background: -webkit-linear-gradient(to right, azure, white);
+  background: linear-gradient(to right, azure, white);
+}
+.blog_post {
+  background: #fff;
+  max-width: 800px;
+  border-radius: 10px;
+  box-shadow: 1px 1px 2rem rgba(0, 0, 0, 0.3);
+  position: relative;
+}
+
+.container_copy {
+  padding: 2rem 4rem 5rem 4rem;
+}
+
+.img_pod {
+  height: 110px;
+  width: 110px;
+  background: linear-gradient(90deg, #ff9966, #ff5e62);
+  z-index: 10;
+  box-shadow: 1px 1px 2rem rgba(0, 0, 0, 0.3);
+  border-radius: 100%;
+  position: absolute;
+  left: -10%;
+  top: -13%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.blog img {
+  height: 4.3rem;
+  width: 4.3rem;
+  position: relative;
+  border-radius: 100%;
+  box-shadow: 1px 1px 2rem rgba(0, 0, 0, 0.3);
+  z-index: 1;
+}
+
+h3 {
+  margin: 0 0 0.5rem 0;
+  color: #999;
+  font-size: 1.25rem;
+}
+.main h1 {
+  color: darkgray;
+  margin-top: 100px;
+  color: darkgrey;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 50px;
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+.container_copy h1 {
+  margin: 0 0 1rem 0;
+  font-size: 2.5rem;
+  letter-spacing: 0.5px;
+  color: #333;
+}
+
+p {
+  margin: 0 0 4.5rem 0;
+  font-size: 1.5rem;
+  line-height: 1.45;
+  color: #333;
+}
+
+.btn_primary {
+  border: none;
+  outline: none;
+  background: linear-gradient(90deg, #ff9966, #ff5e62);
+  padding: 1.5rem 2rem;
+  border-radius: 50px;
+  color: white;
+  font-size: 1.2rem;
+  box-shadow: 1px 10px 2rem rgba(255, 94, 98, 0.5);
+  transition: all 0.2s ease-in;
+  text-decoration: none;
+}
+
+.btn_primary:hover {
+  box-shadow: 0px 5px 1rem rgba(255, 94, 98, 0.5);
+}
+.blog ul {
+  list-style: none;
+  display: flex;
+  margin-left: 25%;
+}
+.blog ul li {
+  justify-content: space-around;
+  margin-top: 25px;
+  margin-left: 25px;
+  border: 1px solid gray;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 50%;
+  font-size: 30px;
+  background-color: azure;
+  cursor: pointer;
+  color: black;
+  transition: 0.3s linear all;
+}
+.blog ul li:hover {
+  color: #fff;
+  background-color: #000;
+}
+@media only screen and (max-width: 650px) {
+  body {
+    background-color: black;
+  }
+
+  .img_pod {
+  }
+}
